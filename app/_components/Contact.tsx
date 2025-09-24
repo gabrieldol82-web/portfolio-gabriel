@@ -41,9 +41,9 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <p className="font-medium">Telefone</p>
-                                        <a href="tel:+5511995474478" className="text-muted-foreground transition-colors">
+                                        <span className="text-muted-foreground transition-colors">
                                             (11) 995474478
-                                        </a>
+                                        </span>
                                     </div>
                                 </Link>
                             </div>
