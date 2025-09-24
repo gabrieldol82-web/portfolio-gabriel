@@ -60,7 +60,7 @@ export default function Contact() {
                         </div>
                     </div>
                     <div className="flex-1">
-                        <h3 className="text-2xl font-semibold mb-6 text-center">Redes Sociais</h3>
+                        <h3 className="text-2xl font-semibold mb-6 text-center sm:mt-2">Redes Sociais</h3>
                         <div className="flex flex-row gap-4">
                             <button className="flex-1 p-3 w-fit rounded-md border border-slate-600 hover:bg-slate-800"><Link href="https://www.linkedin.com/in/gabriel-dantas-874349160/" target="_blank"><GitHubIcon fontSize='large' className="mr-3" />GitHub</Link></button>
                             <button className="flex-1 p-3 w-fit rounded-md border border-slate-600 hover:bg-slate-800"><Link href="https://github.com/gabrieldol82-web" target="_blank"><LinkedInIcon fontSize='large' className="mr-3" />LinkedIn</Link></button>
