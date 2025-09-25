@@ -10,15 +10,15 @@ export default function Home() {
       <section className="min-h-fit lg:min-h-screen mb-5 lg:mb-0 flex items-center justify-center" id="home">
         <div className="container mx-auto px-6 py-20">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
-            <div className="flex-1 text-center lg:text-left">
+            <div className="flex-1 text-center lg:text-left animate__animated animate__fadeInDown">
               <div className="mb-6">
                 <p className="font-bold text-lg mb-2">QUEM SOU?</p>
                 <h1 className="text-4xl lg:text-6xl font-bold mb-4">
-                  Meu nome é <span className="font-bold">Gabriel</span>, e eu sou desenvolvedor web.
+                  Meu nome é <span className="font-bold text-blue-400">Gabriel</span>, e eu sou desenvolvedor web.
                 </h1>
                 <p className="text-xl text-muted-foreground max-w-2xl">
                   Sou um desenvolvedor web apaixonado por tecnologia, e atualmente estou focado em desenvolvimento web com
-                  <span className="font-bold"> ReactJS</span> e <span className="font-bold">NextJS</span>.
+                  <span className="font-bold text-blue-400"> ReactJS</span> e <span className="font-bold text-blue-400">NextJS</span>.
                 </p>
               </div>
             </div>

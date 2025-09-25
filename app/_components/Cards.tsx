@@ -8,7 +8,7 @@ const badgeClasses = "inline-flex items-center rounded-full border px-2.5 py-0.5
 
 export const PersonalCards = ({ project }: PersonalCardProps) => {
     return (
-        <div className="rounded-lg border bg-transparent shadow-sm group hover:shadow-lg transition-all duration-300">
+        <div className="rounded-lg border bg-transparent shadow-sm group hover:shadow-lg">
             <div className="flex flex-col space-y-1.5 p-6">
                 <div className="flex justify-between items-start mb-2">
                     <h3 className="font-semibold tracking-tight text-lg">{project.title}</h3>
@@ -29,7 +29,7 @@ export const PersonalCards = ({ project }: PersonalCardProps) => {
 
 export const GitCards = ({ gitCardProp }: GitCardProps) => {
     return (
-        <div className="rounded-lg border bg-transparent shadow-sm group hover:shadow-lg transition-all duration-300">
+        <div className="rounded-lg border bg-transparent shadow-sm group hover:shadow-lg">
             <div className="flex flex-col space-y-1.5 p-6">
                 <div className="flex justify-between items-start mb-2">
                     <h3 className="font-semibold tracking-tight text-lg">{gitCardProp.name}</h3>
