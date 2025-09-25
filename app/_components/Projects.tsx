@@ -62,7 +62,7 @@ export default function Projects() {
     <section className="min-h-screen" id="projects">
       <div className="container mx-auto px-6 py-20 text-center">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-4">Meus Projetos_</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold mb-4">Meus Projetos<span className="underline_animated">_</span></h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Projetos profissionais e pessoais que demonstram minhas habilidades
             e experiência
