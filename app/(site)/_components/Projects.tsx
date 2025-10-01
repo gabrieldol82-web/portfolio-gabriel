@@ -1,13 +1,14 @@
 "use client"
 
 import GitHubIcon from '@mui/icons-material/GitHub';
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import Link from 'next/link';
 import { useEffect, useState } from "react";
 import { GitRepo, Project } from "../types";
 import { GitCards, PersonalCards } from "./Cards";
 
 export default function Projects() {
-  const [repos, setRepos] = useState<GitRepo[]>([]) 
+  const [repos, setRepos] = useState<GitRepo[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
@@ -56,6 +57,13 @@ export default function Projects() {
       technologies: ["HTML", "CSS", "PHP", "JQuery", "Figma"],
       enterprise: "Fênix Tecnologia",
     },
+    {
+      title: "SESI SSI",
+      description:
+        "Outra plataforma educacional para o SESI, dessa vez voltada para industria e saúde.",
+      technologies: ["HTML", "CSS", "PHP", "JQuery", "Figma"],
+      enterprise: "Fênix Tecnologia",
+    },
   ]
 
   return (
@@ -80,7 +88,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <div>
+        <div className="mb-16">
           <h3 className="text-2xl font-semibold mb-8 text-center">
             Projetos Pessoais
           </h3>
@@ -97,6 +105,28 @@ export default function Projects() {
 
         <div className="mt-28">
           <button className="flex-1 p-3 w-fit rounded-md border border-slate-600 hover:bg-slate-800"><Link href="https://github.com/gabrieldol82-web?tab=repositories" target="_blank"><GitHubIcon fontSize='small' className="mr-3" />Ver todos os repositórios</Link></button>
+        </div>
+
+        <div className="mt-16">
+          <h3 className="text-2xl font-semibold mb-8 text-center">
+            Não clique neste projeto
+          </h3>
+
+          <div className="flex justify-center">
+            <div className="rounded-lg border bg-transparent shadow-sm group hover:shadow-lg">
+              <div className="flex flex-col space-y-1.5 p-6">
+                <div className="flex justify-between items-start mb-2">
+                  <h3 className="font-semibold tracking-tight text-lg">Não seja teimoso</h3>
+                </div>
+                <p className="text-muted text-sm leading-relaxed text-left">Considere este como um último aviso!</p>
+              </div>
+              <div className="p-6 pt-0">
+                <div className="flex gap-4 w-full mt-6">
+                  <button className="flex-1 p-3 w-fit rounded-md border border-slate-600 hover:bg-slate-800"><Link href="./gif" target="_blank"><OpenInNewIcon fontSize='small' className="mr-3" />Demo</Link></button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
