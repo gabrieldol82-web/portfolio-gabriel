@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 export default function Contact() {
     return (
-        <section className="min-h-fit mb-20" id="contact">
+        <section className="min-h-fit bg-black pb-10" id="contact">
             <div className="container mx-auto px-6 py-20">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl lg:text-4xl font-bold mb-4">Entre em Contato</h2>

@@ -39,7 +39,7 @@ export default function Skils() {
                                 <h4 className="text-lg font-semibold mb-4 text-primary">{category.title}</h4>
                                 <div className="flex flex-wrap gap-2">
                                     {category.skills.map((skill, skillIndex) => (
-                                        <span key={skillIndex} className="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-blue-900 dark:text-blue-300">
+                                        <span key={skillIndex} className="text-xs font-semibold me-2 px-2.5 py-0.5 rounded-sm bg-blue-900 text-blue-300">
                                             {skill}
                                         </span>
                                     ))}
