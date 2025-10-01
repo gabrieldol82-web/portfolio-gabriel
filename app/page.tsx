@@ -7,7 +7,7 @@ import Skills from "./_components/Skills";
 export default function Home() {
   return (
     <>
-      <section className="min-h-fit lg:min-h-screen mb-5 lg:mb-0 flex items-center justify-center" id="home">
+      <section className="min-h-fit bg-black lg:min-h-screen mb-5 lg:mb-0 flex items-center justify-center" id="home">
         <div className="container mx-auto px-6 py-20">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
             <div className="flex-1 text-center lg:text-left animate__animated animate__fadeInDown">

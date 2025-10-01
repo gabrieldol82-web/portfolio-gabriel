@@ -59,7 +59,7 @@ export default function Projects() {
   ]
 
   return (
-    <section className="min-h-screen" id="projects">
+    <section className="min-h-screen bg-black" id="projects">
       <div className="container mx-auto px-6 py-20 text-center">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold mb-4">Meus Projetos<span className="underline_animated">_</span></h2>

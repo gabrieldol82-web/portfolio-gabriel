@@ -19,7 +19,7 @@ export const PersonalCards = ({ project }: PersonalCardProps) => {
             <div className="p-6 pt-0">
                 <div className="flex flex-wrap gap-2">
                     {project.technologies.map((tech) => (
-                        <span key={tech} className="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-blue-900 dark:text-blue-300">{tech}</span>
+                        <span key={tech} className="text-xs font-semibold me-2 px-2.5 py-0.5 rounded-sm bg-blue-900 text-blue-300">{tech}</span>
                     ))}
                 </div>
             </div>
@@ -38,7 +38,7 @@ export const GitCards = ({ gitCardProp }: GitCardProps) => {
             </div>
             <div className="p-6 pt-0">
                 <div className="flex flex-wrap gap-2">
-                    <span className="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-blue-900 dark:text-blue-300">{gitCardProp.language}</span>
+                    <span className="text-xs font-semibold me-2 px-2.5 py-0.5 rounded-sm bg-blue-900 text-blue-300">{gitCardProp.language}</span>
                 </div>
                 <div className="flex gap-4 w-full mt-6">
                     {gitCardProp.homepage ? <button className="flex-1 p-3 w-fit rounded-md border border-slate-600 hover:bg-slate-800"><Link href={gitCardProp.homepage} target="_blank"><OpenInNewIcon fontSize='small' className="mr-3" />Demo</Link></button> : ''}
